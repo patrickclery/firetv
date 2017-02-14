@@ -1,5 +1,11 @@
 #!/bin/sh
 # AUTHOR: pwntrik@gmail.com
+# THANKS TO: rbox, maximus64, zenofex, everyone at exploitee.rs
+
+# WARNING: Use at your own risk.
+
+# Script to flash prerooted zip images to 1st Gen Amazon Fire TV
+# Requires soldering and connecting to an eMMC reader found here https://shop.exploitee.rs/
 
 # This is my folder where I put backups and the zip files
 UNLOCKED="no"
@@ -16,7 +22,7 @@ BACKUP="${SHARED}/backup"
 # Then change this to the location of the python script
 SDAT2IMG=~/Desktop/sdat2img/sdat2img.py
 
-# This should be the same on most linux systems
+# This should be the same on most linux systems (tested on Kali linux)
 DEVDIR="/dev/disk/by-partlabel"
 
 # Where to mount the mmc partitions
