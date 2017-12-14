@@ -1,5 +1,4 @@
 #!/bin/sh
-# AUTHOR: pwntrik@gmail.com
 # THANKS TO: rbox, maximus64, zenofex, everyone at exploitee.rs
 
 # WARNING: Use at your own risk.
